@@ -1,0 +1,33 @@
+
+
+
+    <suite name="suit1"  parallel="tests"  thread-count ="2">
+
+        <test name="test1">
+            <parameter name="username" value="technostudy_grup6@gmail.com"></parameter>
+            <parameter name="password" value="123456"></parameter>
+
+            <classes>
+               <class name="PROJECTS.Project_TestNG_3.Task1"></class>
+                <class name="PROJECTS.Project_TestNG_3.Task2"></class>
+
+            </classes>
+        </test>
+
+
+
+
+
+</suite>
+
+
+
+        <!-- Aynı Test metodu için; Birden çok parameter ile çalışılabilir.
+
+Bir testin içinde direk yer almanyan  metodlara da parameter atanabilir ve
+bunlar class da varmış gibi metod uzerinden yönlendirilerek çalıştırılır.
+Belki tools un içine parameter de konabilir.
+
+
+
+        -->
